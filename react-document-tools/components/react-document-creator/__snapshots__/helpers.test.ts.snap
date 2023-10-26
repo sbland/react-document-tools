@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Process Element should process P 1`] = `
+Object {
+  "align": "left",
+  "font": "100 4mm/4.5mm  Arial",
+  "height": 4.5,
+  "id": "MISSING_ID",
+  "style": Object {},
+  "text": "hello",
+  "type": "p",
+  "uid": 0,
+}
+`;
+
+exports[`Process Element should process table cell 1`] = `
+Object {
+  "align": "left",
+  "content": "content",
+  "font": "100 4mm/4.5mm  Arial",
+  "height": 4.5,
+  "id": "MISSING_ID",
+  "style": Object {},
+  "type": "div",
+  "uid": 1,
+  "width": "auto",
+}
+`;
+
+exports[`Process Element should process table cell with P 1`] = `
+Object {
+  "align": "left",
+  "content": Array [
+    Object {
+      "align": "left",
+      "font": "100 4mm/4.5mm  Arial",
+      "height": 4.5,
+      "id": "MISSING_ID",
+      "style": Object {},
+      "text": "content",
+      "type": "p",
+      "uid": 2,
+    },
+  ],
+  "font": "100 4mm/4.5mm  Arial",
+  "height": 4.5,
+  "id": "MISSING_ID",
+  "style": Object {},
+  "type": "div",
+  "uid": 3,
+  "width": "auto",
+}
+`;
